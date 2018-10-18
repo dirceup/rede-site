@@ -8,6 +8,7 @@
     "start": "node app.js",
     "watch-server": "NODE_ENV=development nodemon --watch app.js",
     "watch-client": "NODE_ENV=development grunt watch",
+    "build-client": "mkdirp public && grunt build",
     "test": "NODE_ENV=test mocha test"
   },
   "repository": {

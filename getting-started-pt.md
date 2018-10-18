@@ -34,10 +34,10 @@ Para reiniciar o servidor quando há mudanças do código-fonte:
 
 O mesmo para o código do web app:
 
-    npm run watch-webapp
+    npm run watch-client
 
 Acesse o web app: http://localhost:3000.
 
 Caso precise criar um build do web app para produção:
 
-    npm run build-webapp
+    npm run build-client
